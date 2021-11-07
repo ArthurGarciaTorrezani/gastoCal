@@ -1,6 +1,10 @@
 body{
     background-color: rgb(94, 94, 226);
     font-size: normal 10pt arial;
+    position: absolute;
+    top: 50%; /* distancia em relacao ao topo*/
+    left: 50%;
+    transform: translate(-50%,-65%); 
 }
 header{
     color: white;
@@ -14,7 +18,7 @@ section{
     margin: auto;
     box-shadow: 3px 3px 3px rgba(red, green, blue, alpha);
     text-align: center;
-    
+
 }
 
 footer{
